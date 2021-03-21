@@ -1,0 +1,30 @@
+.wrapper{
+  margin-bottom: 30px;
+  display: flex;
+
+}
+
+.form{
+  .button{
+    border: 0;
+    border-radius: 100%;
+    width: 48px;
+    height: 48px;
+    font-size: 0;
+    background: #79BA55;
+    cursor: pointer;
+    margin: 0 10px;
+    &.button_google{
+      background: url("../../../../assets/img/icons/google-plus.svg") no-repeat center;
+      background-size: cover;
+    }
+    &.button_vk{
+      background: url("../../../../assets/img/icons/vk.svg") no-repeat center;
+      background-size: cover;
+    }
+    &.button_facebook{
+      background: url("../../../../assets/img/icons/facebook.svg") no-repeat center;
+      background-size: cover;
+    }
+  }
+}
